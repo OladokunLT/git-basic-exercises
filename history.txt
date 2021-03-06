@@ -1,0 +1,343 @@
+    1  git clone https://github.om/me/repo.git
+    2  git clone https://github.com/me/repo.git
+    3  git clone https://github.com/me/repo.git
+    4  cd repo
+    5  ls
+    6  ls
+    7  cd my_project
+    8  ls
+    9  pw
+   10  pwd
+   11  git status
+   12  cd project
+   13  cd my-project
+   14  cd ~
+   15  cd my_project
+   16  git status
+   17  git add libgit2
+   18  git  status
+   19  git rm mylibgit
+   20  git int
+   21  git mylibgit rm
+   22  git rm mylibgit
+   23  rm /mylibgit
+   24  git add README
+   25  git add README.md
+   26  git add README
+   27  git status
+   28  git add  README
+   29  cd ~
+   30  mkdir ada
+   31  cd ada
+   32  git add README
+   33  STATUS
+   34  GIT STATUS
+   35  git status
+   36  git init
+   37  git add README
+   38  git add README.md
+   39  git  add
+   40  git  add .
+   41  git status
+   42  git  add a.txt
+   43  cd my_project
+   44  /my_project
+   45  cd ../ cd my_project
+   46  cd ../cd my_project
+   47  cd ../
+   48  cd my_project
+   49  mk README
+   50  touch README.md
+   51  git status
+   52  git checkout master
+   53  git add README.md
+   54  git status
+   55  git rm  --cached libgit2
+   56  git commit -m "hello guys!"
+   57  git config --global  user.email "lukmanoladokun86@gmail.com"
+   58  git config --global user.name "Oladokun Lukman"
+   59  status
+   60  git status
+   61  git add README.md
+   62  git status
+   63  git commit -m "hello guys!"
+   64  git push origin master
+   65  git status
+   66  git touch README
+   67  touch README
+   68  git add README
+   69  git status
+   70  git restore --staged README
+   71  git status
+   72  git add README
+   73  git status
+   74  touch CONTRIBUTING.md
+   75  git add CONTRIBUTING.md
+   76  git status
+   77  git reset HEAD CONTRIBUTING.md
+   78  git status
+   79  git add CONTRIBUTING.md
+   80  git restore --staged CONTRIBUTING.md
+   81  git status
+   82  git reset HEAD CONTRIBUTING.md
+   83  git add CONTRIBUTING.md
+   84  git status
+   85  vim  CONTRIBUTING.md
+   86  git status
+   87  git add CONTRIBUTING.md
+   88  git status
+   89  git status -s
+   90  touch ignore.gitignore
+   91  git status -s
+   92  vim README
+   93  vim  CONTRIBUTING.md
+   94  status -s
+   95  git status -s
+   96  git status
+   97  git add README
+   98  git status -s
+   99  git status
+  100  git diff
+  101  git diff --staged
+  102  git difftool --tool-helpbbb
+  103  git add CONTRIBUTING.md
+  104  git status -s
+  105  git commit
+  106  git commit -v
+  107  git commit -m "about text editor in terminal"
+  108  git status
+  109  git commit -a
+  110  git commit -a -m "avoid staging"
+  111  rm mylibgit
+  112  rm EDITED 
+  113  git rm
+  114  git mv ignore.gitignore README.TXT
+  115  git mv ignore.gitignore None
+  116  git clone  https://github.com/schacon/simplegit-progit
+  117  cd simplegit-progit/
+  118  git log --pretty=format:"%h %s" --graph
+  119  git log --since=2.weeks
+  120  git log -S function_name
+  121  git log --pretty="%h -  %s" --author='Junio C Hamano' --since="2008-10-01" --before="2008-11-01" --no-merges -- t/
+  122  git checkout -- CONTRIBUTING.md
+  123  git remote
+  124  git remote -v
+  125  git remote show origin
+  126  git tag
+  127  cd ..
+  128  git tag
+  129  cd  simplegit-progit/
+  130  git branch testing
+  131  pwd
+  132  git log --oneline --decorate
+  133  git checkout testing
+  134  vim test.rb
+  135  ls
+  136  git commit -a -m 'made a change'
+  137  git add test.rb
+  138  git commit -a -m 'made a change'
+  139  git checkout master
+  140  git log  testing
+  141  vim test.rb
+  142  git add test.rb
+  143  git commit -a -m 'made  other changes'
+  144  git log  --oneline --decorate --graph --all
+  145  git checkout -b iss53
+  146  vim index.html
+  147  git commit -a -m 'Create new footer [issue 53]'
+  148  git add  index.html
+  149  git commit
+  150  git status
+  151  git commit index.html
+  152  git status
+  153  git checkout master
+  154  git status
+  155  git checkout -b hotfix
+  156  vim index.html
+  157  git commit -a -m "Fix broken  email address"
+  158  git add index.html
+  159  status
+  160  git status
+  161  git checkout master
+  162  git merge hotfix 
+  163  git branch -d hotfix
+  164  git checkout iss53
+  165  ls
+  166  git checkout iss53
+  167  git merge iss53
+  168  git commit iss5
+  169  git commit iss53
+  170  git branch iss53 
+  171  git branch  -d iss53 
+  172  git merge iss53
+  173  git commit
+  174  git checkout iss53
+  175  git status
+  176  git checkout master
+  177  git merge iss53
+  178  git status
+  179  git branch master
+  180  git checkout master
+  181  git mergetool
+  182  cd simplegit-progit/
+  183  git branch
+  184  git branch -b
+  185  git branch  -v
+  186  git branch  --merge
+  187  git branch  --no merge
+  188  git branch  --no -merge
+  189  git branch  --no -merged
+  190  git branch  --no-merged
+  191  git checkout master
+  192  git  merge testing
+  193  git mv
+  194  git branch  --move master main
+  195  git push --set-upstream origin main
+  196  git push --set-upstream origin main
+  197  git branch -all
+  198  y
+  199  git branch --all
+  200  git push origin testing
+  201  git q
+  202  end
+  203  end
+  204  exit
+  205  git init
+  206  ls -l
+  207  c ..
+  208  cd ..
+  209  q
+  210  quit
+  211  git quit
+  212  exit
+  213  cd ~
+  214  pw
+  215  pwd
+  216  cd ..
+  217  ls
+  218  cd /
+  219  git exit
+  220  exit
+  221  pwd
+  222  ls -
+  223  ls -l
+  224  lc dir
+  225  dir
+  226  cd example/
+  227  git checkout master
+  228  vim README.md 
+  229  status
+  230  git status
+  231  git commit -m "Edits made to README on the master branch" -a README.md
+  232  git add README.md
+  233  git commit -m "Edits made to README on the master branch"
+  234  status
+  235  git status
+  236  ls -l
+  237  cat README.md 
+  238  git branch
+  239  git merge branch_to_create_merge_conflit 
+  240  cat README.md 
+  241  vim README.md 
+  242  git status
+  243  git add README.md 
+  244  git status
+  245  git commit
+  246  git status
+  247  cat README.md 
+  248  vim README.md 
+  249  ls -l
+  250  status
+  251  git status
+  252  git commit -a README.md 
+  253  git commit -a
+  254  cat README.md 
+  255  git status
+  256  git commit -a
+  257  cat README.md 
+  258  git status
+  259  git commit -m -a
+  260  git status
+  261  git add README.md 
+  262  git status
+  263  git commit README.md 
+  264  cat README.md 
+  265  git status
+  266  git status
+  267  ls -l
+  268  git log
+  269  pwd
+  270  mkdir git-basic-exercises
+  271  cd git-basic-exercises/
+  272  ls -a
+  273  ls -a
+  274  pwd
+  275  git init
+  276  ls -a
+  277  git status
+  278  touch README.md
+  279  ls -a
+  280  ls -l
+  281  git status
+  282  git log
+  283  git log README.md
+  284  git add README.md 
+  285  git status
+  286  git rm -- cached README.md 
+  287  git rm --cached README.md 
+  288  git status
+  289  git add README.md 
+  290  git commit -m "initial commit"
+  291  git log
+  292  git log README.md
+  293  nano README.md 
+  294  cat README.md 
+  295  git status
+  296  git commit -m -a README.md 
+  297  git log
+  298  git commit --amend
+  299  git log
+  300  git status
+  301  cat README.md 
+  302  nano README.md 
+  303  cat
+  304  dir
+  305  cd git-basic-exercises/
+  306  git status
+  307  git log
+  308  git restore README.md
+  309  git status
+  310  git log
+  311  cat README.md 
+  312  nano README.md 
+  313  git add
+  314  git add README.md 
+  315  git commit -m "third commit"
+  316  git status
+  317  cat log
+  318  cat README.md 
+  319  git log
+  320  git checkout 678eb79ce06bc58cec44f98bed45072c41129694
+  321  git checkout master
+  322  cat README.md 
+  323  git branch
+  324  git branch milkshake-flavours
+  325  git branch
+  326  git checkout milkshake-flavours 
+  327  git branch
+  328  nano milkshakes.md
+  329  git status
+  330  git add milkshakes.md 
+  331  git commit -m "added initial commit"
+  332  git log
+  333  git commit --amend
+  334  git log
+  335  git status
+  336  cat milkshakes.md 
+  337  git checkout master
+  338  git log
+  339  git branch
+  340  git checkout -b history
+  341  git branch
+  342  git log
+  343  history > history.txt
